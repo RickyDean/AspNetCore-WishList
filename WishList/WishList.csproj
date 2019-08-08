@@ -8,7 +8,6 @@
     <Folder Include="wwwroot\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
 
@@ -22,6 +21,7 @@
 
   <ItemGroup>
     <Compile Remove="Data\ApplicationDBContext.cs" />
+    <Compile Remove="Data\ApplicationDbContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Data\.DS_Store" />
