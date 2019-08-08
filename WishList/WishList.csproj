@@ -22,5 +22,6 @@
 
   <ItemGroup>
     <Compile Remove="Data\ApplicationDbContext.cs" />
+    <Compile Remove="Data\ApplicationDbContext.cs" />
   </ItemGroup>
 </Project>
