@@ -9,6 +9,7 @@
     <Folder Include="Views\Home\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Item\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,5 +21,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Data\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Item\_ViewImports.cshtml" />
   </ItemGroup>
 </Project>
