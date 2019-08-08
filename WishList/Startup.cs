@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-
+using WishList.Data;
 
 namespace WishList
 {
@@ -14,6 +14,7 @@ namespace WishList
 
         {
             services.AddMvc();
+            services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("Wishlist"));
         }
 
 
